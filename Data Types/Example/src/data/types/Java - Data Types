@@ -1,0 +1,120 @@
+//**********************************************//
+//JAVA - Data Types Lecture
+//**********************************************//
+/*
+ * Data Types
+ * - Variables are "containers" for storing information
+ * - JAVA supports the following data types:
+ *      - Textual Types
+ *          1) Character
+ *          2) String
+ *      - Integer Types
+ *          1) Byte
+ *          2) Short
+ *          3) Int
+ *          4) Long
+ *      - Floating Point Types
+ *          1) Float
+ *          2) Double
+ *      - Logical Type
+ *          1) Boolean
+ *
+ * - Data types in java are divided into two groups:
+ *      1) Primitive data types
+ *      2) Non-Primitive data types
+ */
+
+//**********************************************//
+//JAVA - Data Types Lecture
+//**********************************************//
+/*  Data Types - Description Table
+*
+*   Data Type        |    Size           |    Description                        |       Values
+*  ==================|===================|=======================================|================================================================
+*   byte	     |    1 byte	 |    Stores whole numbers               |  -128 to 127
+*   short	     |    2 bytes	 |    Stores whole numbers               |  -32,768 to 32,767
+*   int              |    4 bytes        |    Stores whole numbers               |  -2,147,483,648 to 2,147,483,647
+*   long	     |    8 bytes	 |    Stores whole numbers               |  -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+*   float	     |    4 bytes	 |    Stores fractional numbers.         |  Sufficient for storing 6 to 7 decimal digits
+*   double	     |    8 bytes	 |    Stores fractional numbers.         |  Sufficient for storing 15 decimal digits
+*   boolean	     |    1 bit          |    Stores true or false values        |
+*   char	     |    2 bytes	 |    Stores a single character/letter or ASCII values
+*  ================================================================================================================================
+*/
+
+/**********************************************//
+/JAVA - Data Types - Primitive Types
+/**********************************************//
+*
+* Data Types - Primitive Type
+* - Basic types provided by java
+* - Eight types:
+*      - Integers types
+*          1) byte
+*              - Size: 1 byte
+*              - Default value: 0
+*              - min value: (-128)
+*              - max value: (127)
+*              - Example: byte var;
+*          2) short
+*              - Size: 2 bytes
+*              - Default value: 0
+*              - min value: (-32,768)
+*              - max value: (32,767)
+*              - Example: int var;
+*          3) int
+*              - Size: 4 bytes
+*              - Default value: 0
+*              - min value: (-2,147,483,648)
+*              - max value: (2,147,483,647)
+*              - Example: short var;
+*          4) long
+*              - Size: 8 bytes
+*              - Default value: 0L
+*              - min value: (-9,223,372,036,854,775,808)
+*              - max value: (-9,223,372,036,854,775,807)
+*              - Example: long var;
+*
+*      - Floating Point types
+*          1) Float
+*              - Size: 4 bytes
+*              - Default value: 0.0f
+*              - Store 6 to 7 decimal digits
+*              - Example: float var;
+*          2) Double
+*              - Size: 8 bytes
+*              - Default value: 0.0d
+*              - Store 15 decimal digits
+*              - Example: double var;
+*
+*      - Textual type
+*          1) Character
+*              - Size: 2 bytes
+*              - Default value: '\u0000'
+*              - Value surrounded in single quotes ''
+*              - Store only single character, number or symbol
+*              - Example: char var, char var = 'A';
+*
+*      - Logical type
+*          1) Boolean
+*              - Size: 1 bit
+*              - Default value: false
+*              - Example: boolean var;
+*/
+
+//**********************************************//
+//JAVA - Data Types - Non-Primitive Types (Reference)
+//**********************************************//
+/*
+ * Data Types - Non-Primitive Type (Reference)
+ * - Non-Primitive types have a reference to class therefore called (Reference)
+ * - The only Non-Primitive type provided by Java is String
+ * - Non-Primitive types are created by programmer except String which is the only one provided by Java
+ * - Default value is null
+ * - Can be used to call methods to perform certain operations
+ * - String
+ *     - Default value: null
+ *     - Value surrounded in double quotes ""
+ *     - Store sequence of characters, numbers & symbols
+ *     - Example: String var, String var = "";
+ */
